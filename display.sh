@@ -1,11 +1,5 @@
 #!/bin/bash
-
-# IMPI SETTINGS
-IPMIUSER=root
-IPMIPW=admin
-IPMIHOST01=10.26.5.31 #Ip address or DNS name is sufficient
-IPMIHOST02=10.26.5.32 #Ip address or DNS name is sufficient
-
+. .env # IPMI Settings
 
 usage()
 {
